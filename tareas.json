@@ -1,0 +1,36 @@
+[   {
+    "nombre": "Tarea A",
+    "prioridad": 1,
+    "fecha_limite": "2024-12-10",
+    "dependencias": [],
+    "completada": false
+    },
+    {
+        "nombre": "Tarea B",
+        "prioridad": 3,
+        "fecha_limite": "2024-12-12",
+        "dependencias": [
+            "Tarea A"
+        ],
+        "completada": false
+    },
+    {
+        "nombre": "Tarea C",
+        "prioridad": 2,
+        "fecha_limite": "2024-12-15",
+        "dependencias": [
+            "Tarea A"
+        ],
+        "completada": false
+    },
+    {
+        "nombre": "Tarea D",
+        "prioridad": 1,
+        "fecha_limite": "2025-01-06",
+        "dependencias": [
+            "Tarea B",
+            "Tarea C"
+        ],
+        "completada": false
+    }
+]
